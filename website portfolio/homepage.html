@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Darien Rogers Portfolio</title>
+    
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        
+        h1
+        {
+            color:white;
+            background:black;
+            text-align: center;
+            font-size:5em;
+            font-family:"Arial";
+            border:1px solid white;
+            outline: 5px dashed white;
+            
+        }
+        h2
+        {
+            font-family:"Arial";
+           text-align: center; 
+            font-size:3em;
+             background-color:black;
+            color:white;
+        }
+        body
+        {
+       background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+            border-bottom:10px solid grey;
+        }
+        html
+        {
+            background-color: #eee;
+background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+background-size: 60px 60px;
+        }
+        .center
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border-color:black;
+            outline:5px dashed;
+            
+            
+        }
+    
+</style>
+    </head>
+    
+    
+    <body>
+    <h1>Darien Rogers</h1>
+    <img src="me.jpg" class="center" border=10 >
+
+        <h2>Click these to learn more about me:</h2>
+    <div class="row">
+  <div class="column">
+<a href="aboutme.html"> <img src="aboutme2.png"  style="width:95%" border=0 ></a>
+  </div>
+  <div class="column">
+   <a href="myhobbies.html"> <img src="hobbies2.png"  style="width:95%" border=0></a>
+  </div>
+  <div class="column">
+      <a href=demothing.html> <img src="professional2.png"  style="width:95%" border=0 ></a>
+  </div>
+</div>
+    
+    </body>
+
+</html>
